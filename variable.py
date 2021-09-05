@@ -1,40 +1,40 @@
-# # num1 = float(input())
-# # num1 = "first"
-# # print(type(num1))
+# num1 = float(input())
+# num1 = "first"
+# print(type(num1))
 
-# # camel case
-# myVariableName = 122434
-# # pascal case
-# MyVariableName = "yash goswami"
-# # snake case
-# my_variable_name = 2134.534
-
-
-# # red,orange,green = 1,23,34
-# # print(red,orange,green)
-
-# first = second = three = 12
-
-# # print(first,second,three)
-
-# # If you have a collection of values in a list1, tuple etc. Python allows you extract the values into variables. This is called unpacking.
+# camel case
+myVariableName = 122434
+# pascal case
+MyVariableName = "yash goswami"
+# snake case
+my_variable_name = 2134.534
 
 
-# list1 = ("first","second","three","four","five","six","seven")
+# red,orange,green = 1,23,34
+# print(red,orange,green)
 
-# first,second,*list1 = list1
+first = second = three = 12
 
-# # print(first,second,three)
+# print(first,second,three)
 
-# # print(first)
-# # print(second)
-# # print(list1)
+# If you have a collection of values in a list1, tuple etc. Python allows you extract the values into variables. This is called unpacking.
 
-# num  = float(122)
-# string = "yash"
-# # print(string+str(num))
 
-# #global variable in python
+list1 = ("first","second","three","four","five","six","seven")
+
+first,second,*list1 = list1
+
+# print(first,second,three)
+
+# print(first)
+# print(second)
+# print(list1)
+
+num  = float(122)
+string = "yash"
+# print(string+str(num))
+
+#global variable in python
 
 # def fun():
 #     global x
@@ -71,9 +71,23 @@ company = [["yash",24],\
             ["ananya",12]]
 
 
-def sort_key(company):
-    return company[0]
+# def sort_key(company):
+#     return company[1]
 
-company.sort(key=sort_key,reverse = True)
+# company.sort(key=sort_key)
 
-print(company)
+# print(company)
+
+
+dict2 = [[34,24,645],\
+           [6767,3],\
+            [65654,12]]
+
+
+
+for com in dict2:
+    com.sort()
+    
+dict2.sort()
+
+print(dict2)
