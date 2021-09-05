@@ -8,5 +8,6 @@ def fun(num1,num2):
         print(num2,"is greater than",num1)
     else:
         print(num1," and ",num2," are equal")
-
+    print("yash "*3)
+    
 fun(num1,num2)
