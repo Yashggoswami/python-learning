@@ -1,4 +1,4 @@
-# print("hello, world!")
+# print("hello, world")
 
 nums = [1,2,3,4,5]
 dict = {1:"yash",2:"goswami",3:"vinay",4:"ananya"}
@@ -28,5 +28,14 @@ def setact(set):
     print()
 
 # setact(set)
+
+import random
+
+def printrandom():
+    for i in range(1,10):
+        print(i,end=" ")
+    print()
+
+printrandom()
 
         
