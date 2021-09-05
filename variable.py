@@ -32,5 +32,21 @@ first,second,*list = list
 
 num  = 122
 string = "yash"
-print(string+str(num))
+# print(string+str(num))
+
+#global variable in python
+
+def fun():
+    global x
+    x = 35
+    print(x)
+# fun()
+print(num)
+
+def show():
+    global num
+    num = 23
+    print(num)
+show()    
+print(num)
 
