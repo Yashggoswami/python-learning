@@ -32,10 +32,9 @@ def setact(set):
 import random
 
 def printrandom():
-    for i in range(1,10):
-        print(i,end=" ")
-    print()
+    print(*nums)
 
 printrandom()
 
-        
+
+       
