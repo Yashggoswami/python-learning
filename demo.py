@@ -1,6 +1,8 @@
 class demo:
     def __init__(self):
         self.first = 0
+    def __init__(self,first=1):
+        self.first = first
     def takefun(self):
         self.first = int(input())
     def show(self):
