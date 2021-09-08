@@ -21,7 +21,7 @@
 # st = "124"
 # print(st.isdigit())
 
-list1 = ['yash','vinay','goswami','ananaya','dodo','basss']
+list1 = ['yash', 'vinay', 'goswami', 'ananaya', 'dodo', 'basss']
 
 print(list1[-1:0:-2])
 # list1.sort()
