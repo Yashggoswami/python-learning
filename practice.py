@@ -366,6 +366,34 @@
 # print(fab(6))
 
 
+# s = {1,2,3,34,34,4}
+# print(s)
+
+# def demoset(s):
+#     s.add(12)
+#     print('inside',s)
+    
+# demoset(s.copy())
+# print('outside',s)
+
+# a = 20
+
+# def sum():
+#     global a
+#     a = 10
+#     print(a)
+
+# sum()
+# print(a)
+
+
+# 1. call by value - immutable object uses different memory location
+# any change in variable will create object in new memory location soo that if outer variable is used the changes will not be reflected
+
+#2. call by reference - mutable object uses same memory location
+
+# any changes in variable will not create any other object in memory and will make changes in same memory location therefore if outer variable is used it will show the reflected changes
+
 
 
 
