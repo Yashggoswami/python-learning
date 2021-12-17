@@ -299,10 +299,27 @@
 
 
 
+#zero argument
 
+# def fun():
+#     print('inside function')
+# fun()
 
+# one argument
 
+# def fun1(ar):
+#     print(ar+' is inside the function')
 
+# fun1('yash')
+
+# two argument
+
+# def fun2(a,b):
+#     print(a,b)
+# fun2('yash','manish')
+
+# no. of argument is unknown
+# variable arguments
 
 # def my_fun(*myname):
 #     print(f'{myname[0]} this is the first function ever')
@@ -313,6 +330,8 @@
 # my_fun(name,'manish')
 # print(name)
 
+
+#keyword argument
 
 # def  demo_fun(a,b,c):
     # print(a,b,c)
@@ -395,11 +414,43 @@
 # any changes in variable will not create any other object in memory and will make changes in same memory location therefore if outer variable is used it will show the reflected changes
 
 
+# eval function
+
+# # s = '34+3423+5'
+# # print(eval(s))
+
+            
 
 
+# x = (lambda x,y:x if x%2==0 else y)
+# print(x(2,3))
 
+tables = [lambda q=x: q*10 for x in range(1, 11)]
 
+print(tables)
 
+for table in tables:
+    print(table())
+
+# filter function
+# removes elements for which condition is true
+
+l = ['yash','goswami','manish','suryan','annu']
+
+# q = list(filter(lambda x:'y' not in x,l))
+
+# print(q)
+
+# temp = list(map(int,range(10)))
+# print(temp)
+
+# q = list(filter(lambda x: x>4,temp))
+# print(q)
+
+# up = lambda x:str.upper(x)
+
+# a=list(map(up,l))
+# print(a)
 
 
 
